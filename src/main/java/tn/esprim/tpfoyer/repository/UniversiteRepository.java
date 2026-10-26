@@ -1,4 +1,7 @@
 package tn.esprim.tpfoyer.repository;
 
-public interface UniversiteRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import tn.esprim.tpfoyer.entities.Universite;
+
+public interface UniversiteRepository extends JpaRepository<Universite, Long> {
 }
